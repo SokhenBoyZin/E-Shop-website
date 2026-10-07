@@ -25,7 +25,7 @@ export default defineNuxtConfig({
 
       bakongApi:
         process.env.NUXT_PUBLIC_BAKONG_API ||
-        'https://bakong-api-1.onrender.com'
+        'https://bakong-api-1.onrender.com/api'
     }
   }
 })
